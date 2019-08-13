@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Breaking into Breakpoints"
-date:       2019-08-13 21:46:14 +0000
+date:       2019-08-13 17:46:19 -0400
 permalink:  breaking_into_breakpoints
 ---
 
 
-So if you've done some Ruby projects you probably have made friends with Pry or byebug to dig around in your code to fix bugs or better understand how your code behaves.  But now maybe you are learning javascript and it seems that you need a new friend to help you get to know the DOM better. I was recently introduced to breakpoints in the Chrome DevTools while working with a Flatiron Technical Coach and my eyes were thrown open. As a kid did you ever do the invisible ink science experiment with lemon juice where you write something on paper with the lemon juice and it appears invisible. Then you hold it up to light and the message shows up in brown like magic (except its science, but oxidation probably sounds less interesting than magic unless you are a chemist and totatlly scary if you are a high school science student studying for an exam). Well using breakpoints and seeing the values in your code appear is even more exciting than the appear of the invisible ink.  If your browser is set up like mine then they actually do show up in a brown box - just like the "invisible" ink.
+So if you've done some Ruby projects you probably have made friends with Pry or byebug to dig around in your code to fix bugs or better understand how your code behaves.  But now maybe you are learning javascript and it seems that you need a new friend to help you get to know the DOM better. I was recently introduced to breakpoints in the Chrome DevTools while working with a Flatiron Technical Coach and my eyes were thrown open. As a kid did you ever do the invisible ink science experiment with lemon juice where you write something on paper with the lemon juice and it looks invisible? Then you hold it up to a light and the message shows up in brown like magic (except its science, but oxidation probably sounds less interesting than magic unless you are a chemist and totally scary if you are a high school chemistry student studying for an exam). Well, using breakpoints and seeing the values in your code appear is even more exciting than the appearance of the invisible ink.  If your browser is set up like mine then they actually do show up in a brown box - just like the "invisible" ink.
 
 I learned about breakpoints while struggling with javascript.  I'd barely started to use the cumbersome "console.log" and "debugger" and decided that learning about breakpoints was a better investment in time and infinitely more fun and interesting.  Here are a few tips to get you started using breakpoints, but make sure to watch a full tutorial. Here is a great video with example code to really help you understand the main features. [Get Started with Debugging JavaScript in Chrome DevTools by  Kayce Basques](https://developers.google.com/web/tools/chrome-devtools/javascript/)
 
