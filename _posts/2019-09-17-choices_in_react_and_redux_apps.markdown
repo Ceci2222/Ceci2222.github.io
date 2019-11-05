@@ -10,7 +10,7 @@ Building an app using React and Redux gives a developer a lot of flexibility and
 
 ## Props from  `Route` or props from `connect` and `mapStateToProps`?
 
-**#### Using Route**
+#### **Using Route**
 You can pass props to a component using a Route. Here is an example of an `App.js` component that passes props using `mapPropsToState`.  Ccode not directly relevant the example is removed and BrowserRouter is implemented in and passed down from Index.js.
 
 *  The prop `services`  comes from the redux store.  The services in the store are fetched by a `componentDidMount`lifecycle function and added to the redux store using an action creator and reducer.
@@ -94,7 +94,7 @@ export default (Service)
 
 
 
-**#### Using `mapStateToProps` and `connect`**
+#### **Using `mapStateToProps` and `connect`**
 
 The class component `App.js` above shows how `mapStateToProps` can be used with `connect` to set props.  The `findService` function shows the use of props. Since this is a class component, the props are not passed in, but instead called using `this.props`. This same functionality could have been implemented in the `Service` or `Services` components to set the props directly in those components, however, I chose to combine those tasks at the  `App.js` level and pass them down.
 
