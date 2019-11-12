@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "ActiveAdmin, Create-React-App, Heroku, Netlify, Ruby on Rails - Part 1"
+title:      "Deploying a React App to Netlify with a Rails Backend on Heroku - Part 1"
 date:       2019-11-12 17:23:31 +0000
 permalink:  activeadmin_create-react-app_heroku_netlify_ruby_on_rails_-_part_1
 ---
@@ -8,7 +8,7 @@ permalink:  activeadmin_create-react-app_heroku_netlify_ruby_on_rails_-_part_1
 
 This article describes the steps I have used to create a basic application using Ruby on Rails API, an ActiveAdmin dashboard and Create-React-App. There are many ways to get a website up and running for a small business, but here are the reasons that I chose these technologies:
 
-**Ruby on Rails API only with ActiveAdmin**  -  Fast way to get an API setup to store the information that will be displayed on the website. ActiveAdmin is a fairly simple admin dashboard interface so the client can create, edit, and delete information displayed. 
+**Ruby on Rails API only with ActiveAdmin and PostgreSQL database**  -  Fast way to get an API setup to store the information that will be displayed on the website. ActiveAdmin is a fairly simple admin dashboard interface so the client can create, edit, and delete information displayed. 
 
 **Create-React-App  **-  Quick way to get a React application started.
 
