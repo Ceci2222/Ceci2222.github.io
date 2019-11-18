@@ -29,6 +29,8 @@ I used some parts of this to get the ActiveAdmin dashboard setup. It sets up bot
 
 **[Netlify Docs ](https://docs.netlify.com/configure-builds/get-started/#basic-build-settings)**
 
+**[Postgres Docs ](https://postgresapp.com/)**- Download and install Postgres if you have not already. One way to check is to look for an elephant icon in the menu bar at the top of your Mac screen.
+
 ---
 
 ## Steps and Example Code
@@ -139,7 +141,7 @@ This step sets up all the models that will be controlled by ActiveAdmin and also
 2. Move controllers for each model you generate into the ```v1``` directory.
 3. Namespace each controller and inherit from apicontroller. Example: ```class Api::V1::ArticlesController < ApiController```
 4. Namespace routes in ```routes.rb```. Example:
-5. <script src="https://gist.github.com/Marie-Burns22/90b61bf0dc29f493d8b7717a713980c6.js"></script>
+ <script src="https://gist.github.com/Marie-Burns22/90b61bf0dc29f493d8b7717a713980c6.js"></script>
 6. Add, commit, and push changes to your remote Github repository.
 7. Heroku push, migrate and restart from the command line:
 ```git push heroku master && heroku run rake db:migrate && heroku restart```
