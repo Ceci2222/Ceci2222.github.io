@@ -148,4 +148,4 @@ This step sets up all the models that will be controlled by ActiveAdmin and also
 8. Open the deployed app admin dashboard and check that it works. Try creating some instances of your models. You should also be able to navigate to the namespaced urls and see a JSON object of the information you entered in the dashboard.
 
 
-That's it for Part 1.  Part 2 will include setting up cors, create-react-act (briefly), and deploying to Netlify.
+That's it for Part 1.  [Part 2](https://marie-burns22.github.io/activeadmin_create-react-app_heroku_netlify_ruby_on_rails_-_part_2) will include setting up cors, create-react-act (briefly), and deploying to Netlify.
