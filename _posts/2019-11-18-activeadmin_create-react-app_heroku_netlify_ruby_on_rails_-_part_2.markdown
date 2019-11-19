@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "ActiveAdmin, Create-React-App, Heroku, Netlify, Ruby on Rails - Part 2"
-date:       2019-11-18 15:41:13 +0000
+date:       2019-11-18 10:41:14 -0500
 permalink:  activeadmin_create-react-app_heroku_netlify_ruby_on_rails_-_part_2
 ---
 
@@ -11,8 +11,8 @@ This article describes how to deploy a create-react-app to Netlify.  It includes
 
 ---
 
-### Step 6- Set up cors so frontend can call backend
-1. Add `gem 'rack-cors' to Gemfile.`
+### Step 6- Set up cors in Rails app so frontend can call backend
+1. In your Rails app, Add `gem 'rack-cors' to Gemfile.` Make sure to `bundle install` it.
 2. In `cors.rb` uncomment out the block and add in the origins for your development and production apps. The example is setup for an app that does not require any login by the frontend user. <script src="https://gist.github.com/Marie-Burns22/9a2380482845b0ff6d6f47db5ebf66ae.js"></script>
 3. Push these change to Heroku from the terminal command line: `git push heroku master `.
 
