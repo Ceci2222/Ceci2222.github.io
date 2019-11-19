@@ -18,11 +18,10 @@ This article describes how to deploy a create-react-app to Netlify.  It includes
 
 
 
-### Step 7- Create-React-App
-1. Make a new React app in a separate directory from the rails app. For example, you make have one project directory named `project` and within it two app directories: `/project/project-backend` (where you rails app is) and `/project/project-frontend` (for the React app). To make the React frontend app, follow the directions in the official [Create React App guide](https://create-react-app.dev/docs/getting-started/). 
-2.  Create a repository on Github and connect your React app to it.
-3.  This guide will not cover how to make a React app.
-4.   You can use various [libraries](https://reactjs.org/docs/faq-ajax.html#example-using-ajax-results-to-set-local-state) to make API calls to your rails backend. Just check that the urls you use include both the current heroku app name/url and the correct name-spacing set up in your rails routes.  Example: `https://dcpr.herokuapp.com/api/v1/teachers`  not `https://dcpr.herokuapp.com/teachers` if you put your controllers in the `/api/v1` directory with corresponding routes.
+### Step 7- Create-React-App (this guide will not go into the details of creating the React app)
+1.To make the React frontend app, follow the directions in the official [Create React App guide](https://create-react-app.dev/docs/getting-started/).  Creat it in a separate directory from the rails app.
+2.  Create a new repository on Github and connect your React app to it. *Note your backend and frontend apps will be in separate repositories.
+3.  You can use various [libraries](https://reactjs.org/docs/faq-ajax.html#example-using-ajax-results-to-set-local-state) to make API calls to your rails backend. Just check that the urls you use include both the current heroku app name/url and the correct name-spacing set up in your rails routes.  Example: `https://dcpr.herokuapp.com/api/v1/teachers`  not `https://dcpr.herokuapp.com/teachers` if you put your controllers in the `/api/v1` directory with corresponding routes.
 
 ### Step 8- Deploy to Netlify
 1. Create a Netlify account. 
