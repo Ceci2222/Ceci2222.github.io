@@ -7,7 +7,7 @@ permalink:  react_hooks_building_a_travel_stats_app
 
 
 
-#### Class Components to Function Components
+### Class Components to Function Components
 For my previous React apps, I have mostly used class components to handle state with some Redux. For [My Travel Stats React web app, ](http://mytravelstats.netlify.com/)I am writing function components and using hooks to handle local state. I will use two React hooks to build this app. The objectives of this blog post are:
 
 1. Encourage anyone thinking about, but hesistent to try React hooks to read the excellent docs and give them a try!
