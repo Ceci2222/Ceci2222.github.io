@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Hooks: Building a Travel Stats App"
-date:       2019-12-01 20:07:29 +0000
+date:       2019-12-01 15:07:30 -0500
 permalink:  react_hooks_building_a_travel_stats_app
 ---
 
