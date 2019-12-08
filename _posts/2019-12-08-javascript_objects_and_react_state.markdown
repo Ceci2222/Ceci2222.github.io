@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Javascript Objects and React State"
-date:       2019-12-08 18:20:54 +0000
+date:       2019-12-08 13:20:55 -0500
 permalink:  javascript_objects_and_react_state
 ---
 
