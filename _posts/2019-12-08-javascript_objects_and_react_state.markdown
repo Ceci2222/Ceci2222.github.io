@@ -119,7 +119,7 @@ function App() {
   }
 	
 	const removeLanguages = (languagesToRemove) => {
-    let newList = [...languages];
+	  let newList = [...languages];
     languagesToRemove.forEach(language => {
       let foundLanguage = newList.find(l => l.name === language.name);
       foundLanguage.count--;
