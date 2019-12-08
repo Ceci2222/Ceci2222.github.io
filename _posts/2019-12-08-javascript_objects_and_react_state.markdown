@@ -117,8 +117,7 @@ function App() {
     })
     setLanguages(newLanguageList);
   }
-	
-	const removeLanguages = (languagesToRemove) => {
+const removeLanguages = (languagesToRemove) => {
 	  let newList = [...languages];
     languagesToRemove.forEach(language => {
       let foundLanguage = newList.find(l => l.name === language.name);
