@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Rails Scope Method"
-date:       2019-12-27 22:23:21 +0000
+title:      "Rails Scopes"
+date:       2019-12-27 17:23:22 -0500
 permalink:  rails_scope_method
 ---
 
@@ -26,10 +26,15 @@ end
 ```
 
 `scope` is the method used in the class to define the scope. There can be multiple scopes in a class.
+
 `:category` is the name of this scope.
+
 `(category)` is the argument being passed in. In this example it is a string.
+
 `where` is applying a condition to limit the objects returned. It represents the `WHERE` part of a SQL query.
+
 `food.category` is the field where the condition is applied.  In this example, the field is on an associated model, food.
+
 `?` The question mark will be replaced by the `category`. This syntax is used to avoide the less secure `food.category LIKE category`.
 
 While explaining each part of this scope I came across some examples that use `LIKE` and others that use `=`.  I plan to research these two options to see if they produce different results and if there is a difference in security between the two.
