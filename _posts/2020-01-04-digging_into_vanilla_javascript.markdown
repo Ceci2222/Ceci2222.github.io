@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Digging into Vanilla Javascript"
-date:       2020-01-05 03:03:23 +0000
+title:      "30 days of Vanilla Javascript - Week 1"
+date:       2020-01-04 22:03:24 -0500
 permalink:  digging_into_vanilla_javascript
 ---
 
