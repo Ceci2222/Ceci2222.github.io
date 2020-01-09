@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "30 Days of Vanilla Javascript - Week 2"
-date:       2020-01-09 21:20:25 +0000
+date:       2020-01-09 16:20:26 -0500
 permalink:  30_days_of_vanilla_javascript_-_week_2
 ---
 
@@ -87,7 +87,7 @@ function example(word, array) {
 
 * Difference between `change` and `keyup` event listeners: If you are typing into an input field, you have to leave the field (click outside of it) for the `change` event to be "heard". If you want each character typed to be "heard" then use the `keyup` event listener. 
 
-###
+### Array Cardio Day 2
 #### Day 7 -  Thursday, January 9, 2020
 * Useful array methods for checking values: `Array.prototype.some()` and `Array.prototype.every()`. For each, pass in a function to test for true/false. Can use ES6 and return implict values of true or false. Example:
 
