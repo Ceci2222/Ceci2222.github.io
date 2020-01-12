@@ -5,6 +5,7 @@ date:       2020-01-09 16:20:26 -0500
 permalink:  30_days_of_vanilla_javascript_-_week_2
 ---
 
+These are my daily notes for week two while going through Wes Bos's [Javascript30](https://javascript30.com/) class.
 
 ### Playing With CSS Variables and JS
 #### Day 3: Sunday, January 5, 2020
@@ -102,4 +103,43 @@ const isYellow = fruits.some(fruit => (fruit.color === "yellow"));
 ```
 
 * `console.table()`   organizes arrays of objects into a table! So much easier to read!
-* `(new Date()).getFullYear() ` can be used to return the current year without hardcoding it. Also in VS Code when you are typing it will auto suggest other methods for anything you have typee.
+* `(new Date()).getFullYear() ` can be used to return the current year without hardcoding it. Also in VS Code when you are typing it will auto suggest other methods for anything you have typed.
+
+
+### Fun with HTML5 Canvas
+#### Day 8 - Friday, January 10, 2020
+
+* You can draw on a web page using the HTML5 `<canvas>` element. The [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)  and Javascript are used to draw on this element. Example canvas element:
+
+` <canvas id="canvas" width="800" height="800"></canvas>`
+
+* Use `.getElementById()` to select the canvas element and then `.getContext()` to select the context where the drawing will be rendered.  
+
+* To do the actual drawing, you will need to declare a function with a block that holds the appropriate methods acting onthe context, and add event listeners to the canvas. Use multiple event listeners to toggle the drawing on and off.  The following example is not complete, but just shows how the canvas and the context and assigned to variables and then how one of the event listeners is assigned to the canvas and how the draw function calls methods on the context:
+
+```
+<script>
+   const canvas = document.querySelector('#canvas');
+	 const ctx = canvas.getContext('2d');
+	 
+	 function draw(e) {
+	    ctx.beginPath();
+	    ctx.lineTo(e.offsetX, e.offsetY);
+	    ctx.stroke();
+	 };
+	 
+	 canvas.addEventListener('mousemove', draw);
+</script>
+	 
+```
+
+
+### Must Know Dev Tool Tricks
+#### Day 9, Saturday, January 11, 2020
+* Breakpoints can be set on an element! In the dev tools, element tab, right click on an element and choose one of the options in the 'break on' option/submenu. For example, if you select 'attribute modification' then the break point will be triggered and show in the souces tab when an attribute on that element is modified. Remove it the same way you set it.
+* `console.log()` is just the beginning. There are lots of way to display information in the console: `console.count()`, `console.dir()`, `console.assert()`, `console.clear()`, `console.group()` with `console.groupEnd()`, `console.time()` with `console.timeEnd()`, `console.table()` to show an table of an array of objects.
+
+
+
+
+
