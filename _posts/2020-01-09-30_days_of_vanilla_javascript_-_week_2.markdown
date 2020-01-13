@@ -140,6 +140,20 @@ const isYellow = fruits.some(fruit => (fruit.color === "yellow"));
 * `console.log()` is just the beginning. There are lots of way to display information in the console: `console.count()`, `console.dir()`, `console.assert()`, `console.clear()`, `console.group()` with `console.groupEnd()`, `console.time()` with `console.timeEnd()`, `console.table()` to show an table of an array of objects.
 
 
+### Hold Shift and Check Checkboxes
+#### Day 10, Sunday January 12, 2020
+* Flag variables - these are set to help identify or keep track of elements for specific conditions.  They are also like toggles and usually have a value that switches between false and true.  To change between the true and false use the bang operator: `!`. Example: 
 
+```
+let waterOn = false;
+
+function turnFaucet() {
+   waterOn = !waterOn;
+   (waterOn) ? console.log("Turn off the faucet to save water.") : console.log("Faucet is off.")
+}
+```
+
+* Remember to use `console.log(e)` more often to see all the information available in an event that could be useful for manipulating the DOM.
+* Selecting element with inputs have a little different syntax (use of square brackets) than just class or id selector.  Example: `document.querySelectorAll('.inbox input[type="checkbox"]')`
 
 
