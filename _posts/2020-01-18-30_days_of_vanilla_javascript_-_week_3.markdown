@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "30 Days of Vanilla Javascript - Week 3"
-date:       2020-01-18 19:52:04 +0000
+date:       2020-01-18 14:52:05 -0500
 permalink:  30_days_of_vanilla_javascript_-_week_3
 ---
 
