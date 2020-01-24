@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "30 Days of Vanilla Javascript - Week 2"
+title:      "30 Days of Vanilla Javascript  (Days 3 - 10)"
 date:       2020-01-09 16:20:26 -0500
 permalink:  30_days_of_vanilla_javascript_-_week_2
 ---
