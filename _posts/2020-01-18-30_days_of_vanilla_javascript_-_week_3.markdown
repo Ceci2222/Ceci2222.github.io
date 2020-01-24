@@ -1,12 +1,12 @@
 ---
 layout: post
-title:      "30 Days of Vanilla Javascript - Week 3"
+title:      "30 Days of Vanilla Javascript (Days 11 - 15)"
 date:       2020-01-18 14:52:05 -0500
 permalink:  30_days_of_vanilla_javascript_-_week_3
 ---
 
 
-These are my daily notes for week two (starting at day 11) while going through Wes Bos’s Javascript30 class.
+These are my daily notes while going through Wes Bos’s [Javascript30 class](https://javascript30.com/).
 
 ### HTML Video Player
 #### Day 11, Monday, January 13, 2020
