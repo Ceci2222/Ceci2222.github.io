@@ -8,8 +8,8 @@ permalink:  digging_into_vanilla_javascript
 
 I've become comfortable building React web applications, but decided that to be a better developer I need to sharpen my Vanilla Javascript skills. Several software engineers have recommended Wes Boss's [Javascript30 ](https://javascript30.com/)course and I started it Friday, January 3, 2020 with the Javascript Drum Kit project. To help retain knowledge from the projects, I am recording three ideas from each project in a weekly blog post until I complete all 30. 
 
-### Javascript Drum Kit Project - Day 1
-#### Friday, January 3, 2020
+### Javascript Drum Kit Project
+#### Lesson 1, Day 1, Friday, January 3, 2020
 * Javascript program structure - React has a lot of files, but to get a basic Javascript app running you just need an html file and a css file will add the styling.
 * Javascript html file structure - 
 
@@ -36,8 +36,8 @@ I've become comfortable building React web applications, but decided that to be 
 
 * `this` is important in functions to make sure actions are taken on the correct elements.
 
-### CSS + JS Clock - Day 2
-#### Saturday, January 4, 2020
+### CSS + JS Clock 
+#### Lesson 2, Day 2, Saturday, January 4, 2020
 
 * You can set the style without a css file.  The CSS can go in a style tag:
 
