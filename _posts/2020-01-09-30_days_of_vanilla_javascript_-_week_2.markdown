@@ -8,7 +8,7 @@ permalink:  30_days_of_vanilla_javascript_-_week_2
 These are my daily notes for week two while going through Wes Bos's [Javascript30](https://javascript30.com/) class.
 
 ### Playing With CSS Variables and JS
-#### Day 3: Sunday, January 5, 2020
+#### Lesson 3, Day 3: Sunday, January 5, 2020
 
 * You can create CSS variables to use in your JS. Then you can update styling with JS using the variables.  This can be done by declaring the variable on an element or the root in the style tag and setting the default values for those variables. In the example below the variables are declared on the root and the default values for base, spacing, and blur are set.
 
@@ -37,7 +37,7 @@ Example:
 
 
 ### Array Cardio Day 1
-#### Day 4 - Monday, January 6, 2020
+#### Lesson 4, Day 4: Monday, January 6, 2020
 * `Array.prototype.reduce()` - the Reduce method can be used for multiple tasks such as summing integers or summing instances of elements.
 * To test out code, write an html file and then run it in the live server. This gives access to the chrome devtools.
 * `Array.prototype.sort() ` - pass in a function to determine which attribute to sort on and which order to sort.  
@@ -49,7 +49,7 @@ const sorted = array.sort((a, b) => a.year > b.year ? -1 : 1);
 ```
 
 ### Flex Panels
-#### Day 5 - Tuesday, January 7, 2020
+#### Lesson 5, Day 5: Tuesday, January 7, 2020
 * Use `.forEach() to add event listeners`. 
 
 Example: 
@@ -70,7 +70,7 @@ Example:
 * CSS flex is useful for dynamically sizing elements. You can nest flex to arrange within other blocks.
 
 ### Ajax Type Ahead
-#### Day 6 - Wednesday, January 8, 2020
+#### Lesson 6, Day 6: Wednesday, January 8, 2020
 
 * You can create a Reg Expression from an argument that is passed into a function and assign it to a variable. Then that variable can be used in other parts of the code.  In the following example, the word is followed by another parameter in single quotes. The g tells it to search globally so it will identify more than once and the i insensitively (case does not matter):
 
@@ -89,7 +89,7 @@ function example(word, array) {
 * Difference between `change` and `keyup` event listeners: If you are typing into an input field, you have to leave the field (click outside of it) for the `change` event to be "heard". If you want each character typed to be "heard" then use the `keyup` event listener. 
 
 ### Array Cardio Day 2
-#### Day 7 -  Thursday, January 9, 2020
+#### Lesson 7, Day 7:  Thursday, January 9, 2020
 * Useful array methods for checking values: `Array.prototype.some()` and `Array.prototype.every()`. For each, pass in a function to test for true/false. Can use ES6 and return implict values of true or false. Example:
 
 ```
@@ -107,7 +107,7 @@ const isYellow = fruits.some(fruit => (fruit.color === "yellow"));
 
 
 ### Fun with HTML5 Canvas
-#### Day 8 - Friday, January 10, 2020
+#### Lesson 8, Day 8: Friday, January 10, 2020
 
 * You can draw on a web page using the HTML5 `<canvas>` element. The [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)  and Javascript are used to draw on this element. Example canvas element:
 
@@ -135,13 +135,13 @@ const isYellow = fruits.some(fruit => (fruit.color === "yellow"));
 
 
 ### Must Know Dev Tool Tricks
-#### Day 9, Saturday, January 11, 2020
+#### Lesson 9, Day 9: Saturday, January 11, 2020
 * Breakpoints can be set on an element! In the dev tools, element tab, right click on an element and choose one of the options in the 'break on' option/submenu. For example, if you select 'attribute modification' then the break point will be triggered and show in the souces tab when an attribute on that element is modified. Remove it the same way you set it.
 * `console.log()` is just the beginning. There are lots of way to display information in the console: `console.count()`, `console.dir()`, `console.assert()`, `console.clear()`, `console.group()` with `console.groupEnd()`, `console.time()` with `console.timeEnd()`, `console.table()` to show an table of an array of objects.
 
 
 ### Hold Shift and Check Checkboxes
-#### Day 10, Sunday January 12, 2020
+#### Lesson 10, Day 10: Sunday January 12, 2020
 * Flag variables - these are set to help identify or keep track of elements for specific conditions.  They are also like toggles and usually have a value that switches between false and true.  To change between the true and false use the bang operator: `!`. Example: 
 
 ```
