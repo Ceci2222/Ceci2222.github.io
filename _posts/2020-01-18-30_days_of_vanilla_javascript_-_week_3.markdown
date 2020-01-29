@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "30 Days of Vanilla Javascript (Days 11 - 15)"
+title:      "30 Days of Vanilla Javascript (Days 11 - 16)"
 date:       2020-01-18 14:52:05 -0500
 permalink:  30_days_of_vanilla_javascript_-_week_3
 ---
@@ -9,7 +9,7 @@ permalink:  30_days_of_vanilla_javascript_-_week_3
 These are my daily notes while going through Wes Bos’s [Javascript30 class](https://javascript30.com/).
 
 ### HTML Video Player
-#### Day 11, Monday, January 13, 2020
+#### Lesson 11, Day 11: Monday, January 13, 2020
 
 * Data attributes are assigned as strings. If they are used as numbers they need to be parsed when retrieved.  Example: `video.currentTime += parseFloat(this.dataset.skip);`
 
@@ -19,7 +19,7 @@ These are my daily notes while going through Wes Bos’s [Javascript30 class](ht
 
 
 ### Key Sequence Detection(KONAMI CODE)
-#### Day 12, Tuesday, January 14, 2020
+#### Lesson 12, Day 12: Tuesday, January 14, 2020
 * Key sequencing detection is used to trigger an action based on specific sequence of key strokes.
 
 * `Array.prototype.splice()` can be used to keep an array from growing beyond a certain size even as new elements are pushed on. `.splice()` requires a start index. Optionally it can take in the `deleteCount`and element to add to the array. It will not add any elements if none are indicated. The return value is an array of all the deleted elements and the original array is mutated/changed. The start index can be measured from the end of the array by using negative numbers. For example, if you want the array to stay at a length of 5, set the start index to -6 and the delete count to 1. Then everytime a new element is added on, the length will go to 6, but because splice is -6 and the delete count is 1, the first element will be deleted.
@@ -28,7 +28,7 @@ These are my daily notes while going through Wes Bos’s [Javascript30 class](ht
 
 
 ### Slide in on Scroll
-#### Day 13, Saturday, January 18, 2020
+#### Lesson 13, Day 16: Saturday, January 18, 2020
 * Some frameworks come with a debounce function or you write your own (or find one online). A debounce function is useful with functions triggered by event listeners that may run too many times and cause performance issues. An example of this is a function called by a scroll event. To implement the debounce function, wrap it around the function called in the event listener.  It is a good idea to always debounce a scroll event. Example:
 ```
 window.addEventListener('scroll'
@@ -48,7 +48,7 @@ img.classList.remove('active');
 ```
 
 ### Object and Arrays - Reference VS Copy
-#### Day 14, Saturday, January 18, 2020
+#### Lesson 14, Day 16: Saturday, January 18, 2020
 
 * For strings and numbers, if you set a variable to a value and then set another variable to that variable, changes to the first variable will not change the value of the second variable.  Example:
 ```
@@ -80,7 +80,7 @@ const array5 = Array.from(array1);
 `let newObject = {...oldObject}`.
 
 ### LocalStorage and Event Delegation
-#### Day 15, Saturday, January 18, 2020
+#### Lesson 15, Day 16, Saturday, January 18, 2020
 * In the browser is an object called localStorage. You can view it by typing `localStorage` in the console of the dev tools. You can also see it by clicking on the Applications tab in the dev tools. There you can see the key value pairs of data in the localStorage. Note: Not an object. Can only store string data.
 * You can add data to the localStorage with `localStorage.set('keyName', JSON.stringify(dataObject));`
 * To access items in local storage you can use `localStorage.getItem('keyName');` This will return a string so to get an object you can use `JSON.parse(localStorage.getItem('items'))`
