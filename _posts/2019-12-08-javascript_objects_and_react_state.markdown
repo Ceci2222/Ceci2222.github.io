@@ -2,7 +2,7 @@
 layout: post
 title:      "Javascript Objects and React State"
 date:       2019-12-08 13:20:55 -0500
-permalink:  javascript_objects_and_react_state
+permalink:  https://marie-burns22.github.io/javascript_objects_and_react_state
 ---
 
 
